@@ -1,0 +1,177 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+body{
+	background-color: #fff;
+}
+#content{
+	width: 88%;
+	margin:0 auto;
+}
+#htop{
+   height: 200px;
+   font-family: KaiTi;
+
+}
+#htop h3{
+	font-size: 50px;
+	margin-top: 50px;
+
+}
+#htop p{
+	margin-top: 20px;
+}
+#hmid{
+	width: 100%;
+	
+}
+.piccontent{
+	height: 330px;
+	width: 100%;
+	
+	position: relative;
+	margin-top: 30px;
+}
+.pic{
+	height: 330px;
+	width: 360px;
+	
+	border-radius:7px;
+    -webkit-border-radius:7px;  
+    -moz-border-radius:7px;     
+    -ms-border-radius:7px;     
+    -o-border-radius:7px; 
+    
+}
+#pic3,#pic6,#pic9,#pic12{
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+#pic2,#pic5,#pic8,#pic11{
+	position: absolute;
+	top: 0;
+	left: 412px;
+}
+#pic1{
+	background-image: url(image/贡嘎山.jpg);
+}
+#pic2{
+	background-image: url(image/珠穆朗玛.jpg);
+}
+#pic3{
+	background-image: url(image/梅里雪山.jpg);
+}
+#pic4{
+	background-image: url(image/黄山.jpeg);
+}
+#pic5{
+	background-image: url(image/三神山.jpg);
+}
+#pic6{
+	background-image: url(image/乔戈里峰.jpg);
+}
+#pic7{
+	background-image: url(image/冈仁波齐峰.jpg);
+}
+#pic8{
+	background-image: url(image/泰山.jpg);
+}
+#pic9{
+	background-image: url(image/峨眉山.jpg);
+}
+#pic10{
+	background-image: url(image/庐山.jpg);
+}
+#pic11{
+	background-image: url(image/雁荡山.jpg);
+}
+#pic12{
+	background-image: url(image/龙虎山.jpg);
+}
+.outc{
+	height: 330px;
+	width: 360px;
+	
+	border-radius:7px;
+    -webkit-border-radius:7px;  
+    -moz-border-radius:7px;     
+    -ms-border-radius:7px;     
+    -o-border-radius:7px; 
+}
+#outc1,#outc7,#outc12{
+    background-color: rgba(0,204,255,0.7);
+}
+#outc2,#outc8,#outc10{
+    background-color: rgba(255,102,204,0.7);
+}
+#outc3,#outc5,#outc11{
+    background-color: rgba(255,204,153,0.7);
+}
+#outc4,#outc6,#outc9{
+    background-color: rgba(153,102,204,0.7);
+}
+#hbottom{
+	width: 100%;
+	height: 300px;
+	font-family: KaiTi;
+}
+#hbottom p{
+	margin-top: 100px;
+	cursor:pointer;
+}
+#outc1:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc2:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc3:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc3:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc4:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc5:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc6:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc7:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc8:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc9:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc10:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc11:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+#outc12:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.outc h3{
+	color: #fff;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	width: 100%;
+	font-size: 50px;
+    cursor:pointer;
+}
+.outc p{
+	color: #fff;
+	cursor:pointer;
+	font-weight: 500;
+	position: absolute;
+	top: 150px;
+
+}
